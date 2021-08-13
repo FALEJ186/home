@@ -14,7 +14,7 @@ function Navbar() {
           <div className="container">
             <Router>
               
-              <div id="title">Frederick Alejandro</div>
+                <span className="badge rounded-pill even-larger-badge">Frederick Alejandro</span>
 
             </Router>
           </div>
