@@ -1,15 +1,17 @@
-import logo from './logo.svg';
-import './Background.css';
-
-import Navbar from './navbar/Navbar.js'
+import "./Background.css";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  NavLink,
+} from "react-router-dom";
+import Navbar from "./navbar/Navbar.js";
+import Timeline from "./timeline/Timeline.js"
 
 function App() {
   return (
     <div className="App">
-      
-      <Navbar/>
-      
-      
+      <Navbar />
       
     </div>
   );
